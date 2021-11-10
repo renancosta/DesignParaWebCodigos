@@ -1,11 +1,11 @@
 h2 {
-    background-color: #87bbb9;
+   
     font-size: 20;    
 }
 
 .tituloPersonalizado{
-    color: white;
-    background-color: #435958;
+    color: rgb(235, 169, 29);
+    
 }
 
 .tamanhoFonte50{
@@ -22,11 +22,11 @@ h2 {
 }
 
 .areaAgrupada{
-    background-color: #d7e8e7;
+    
 }
 
 .formulario{
-    background-color:#b4b08e;
+    
 }
 
 a{
@@ -42,9 +42,10 @@ a:visited{
 }
 
 a:hover{
-    color:chocolate;
+    color:whitesmoke;
     font-size: larger;
     text-decoration: underline overline;
+    background-color: darkgreen;
 }
 
 a:focus{
@@ -54,4 +55,11 @@ a:focus{
 
 a:active{
     color:red;
+}
+
+body{
+    background-image: url('../imagem/bg_bggenerator_com.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }

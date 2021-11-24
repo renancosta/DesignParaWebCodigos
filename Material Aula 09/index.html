@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script>
+            alert("Bem-vindo!");
+            function somar(){
+                var numero1 = parseInt(document.getElementById("n1").value,10);
+                var numero2 = parseInt(document.getElementById("n2").value,10);
+                alert(numero1+numero2);
+            }
+            function teclado(){
+                alert("Você está digitando");
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Soma de números</h1>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <form>
+            Número 1: <input type="number" id="n1">
+            Número 2: <input type="number" id="n2" onchange="somar()" onKeyPress="teclado()">
+            <!--<input type="button" value="Somar" onclick="somar()">-->
+        </form>
+    </body>
+</html>

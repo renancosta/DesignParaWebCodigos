@@ -1,0 +1,65 @@
+h2 {
+   
+    font-size: 20;    
+}
+
+.tituloPersonalizado{
+    color: rgb(235, 169, 29);
+    
+}
+
+.tamanhoFonte50{
+    font-size: 50;
+}
+
+.tamanhoFonte30{
+    font-size: 30;
+}
+
+#meuid{
+    color:#c28086;
+    font-weight: bold;
+}
+
+.areaAgrupada{
+    
+}
+
+.formulario{
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: green;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color:whitesmoke;
+    font-size: larger;
+    text-decoration: underline overline;
+    background-color: darkgreen;
+}
+
+a:focus{
+    color:chocolate;
+    font-size: larger;
+}
+
+a:active{
+    color:red;
+}
+
+body{
+    background-image: url('../imagem/bg_bggenerator_com.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
